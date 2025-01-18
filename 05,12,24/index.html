@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .image {
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        top: 450px;
+        left: 450px;
+        width: 150px;
+        height: 150px;
+        clip-path: polygon(
+          0% 0%,
+          100% 0%,
+          100% 75%,
+          75% 75%,
+          75% 100%,
+          50% 75%,
+          0% 75%
+        );
+      }
+      .block {
+        width: 500px;
+        height: 500px;
+        background-color: blueviolet;
+        position: relative;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <img
+        src="https://static.wikia.nocookie.net/b759dd01-e26b-4f87-ad4b-6ed08c47bb2d/scale-to-width/755"
+        alt=""
+        class="image"
+      />
+    </div>
+  </body>
+</html>
